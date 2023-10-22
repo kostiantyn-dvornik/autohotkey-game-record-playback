@@ -1,210 +1,22 @@
 ﻿;AC Valhala
-;Target resolution of win mode of ini file is 1600x900 (Note that actual windows is 1586x893)
-;Pixel search == 0 => Found
-#include BugsDetector.ahk
-SetBatchLines -1
+#Requires AutoHotkey v1.1.33+
+#include ScenarioRunner_Base_ACV.ahk
 
-AvailableScripts := []
-AvailableScriptsFight := []
-AvailableScriptsEscape := []
-
-CurrentState := 0 ; 0 - default, 1 - fight, 2 - escape
-
-LastTimeDamaged := A_TickCount
-
-keys := ["d", "a", "w", "s", "space", "RButton", "LButton", "LAlt", "e"] ; keys that need to force up to prevent stucking
-
-Loop Files, %A_WorkingDir%\*.ahk, R ; Recurse into subfolders.
-{
-    Filename = %A_LoopFileName%
-
-    If InStr(A_LoopFileName, "Default")
-    {
-        AvailableScripts.Push(A_LoopFileName)
-    }
-    else If InStr(A_LoopFileName, "Fight")
-    {
-        AvailableScriptsFight.Push(A_LoopFileName)
-    }
-    else If InStr(A_LoopFileName, "Escape")
-    {
-        AvailableScriptsEscape.Push(A_LoopFileName)
-    }
-}
-
-if AvailableScripts.Length() == 0
-    return
-
-if !FileExist("neednewrun.txt")
-    FileAppend A_ScriptName, %A_WorkingDir%\neednewrun.txt
+InitializeScripts()
 
 ToolTip "Press F5 to start"
 
 F5::
-    LastTimeBlack := A_TickCount
+    if WinExist("Assassin's Creed Valhalla")
+        WinActivate ; Use the window found by WinExist.
+        WinMove, A,, 0, 0 , 1600, 900
+        
+    LastTimeBlack := A_TickCount    
     SetTimer Playback, 50
-
     ToolTip "Playback random scripts F12 to stop"
 return
 
-F12::
-    CurrentState := -1
-    StopCurrentPlayback()
+F12::    
+    StopCurrentPlayback()    
 ExitApp
 return
-
-Playback()
-{
-    global AvailableScripts,AvailableScriptsFight, AvailableScriptsEscape, CurrentState, LastTimeDamaged
-
-    ProcessCommonActions()
-
-    DetectVisualBugs(0,500,1600,900)
-
-    if(CurrentState == 0) ;Default
-    {
-        if FileExist("neednewrun.txt")
-        {
-            MakeKeyUp()
-            Random, rand, 1, AvailableScripts.MaxIndex()
-            script = % AvailableScripts[rand]
-            Run Playback.exe %script%
-            FileDelete %A_WorkingDir%\neednewrun.txt
-        }
-
-        PixelSearch, Px, Py, 119, 822, 380, 830, 0x3244fb, 20, Fast ;Have damaged
-        if (ErrorLevel == 0)
-        {
-            CurrentState := 1
-            LastTimeDamaged = A_TickCount
-            StopCurrentPlayback()
-        }
-    }
-    else if(CurrentState == 1) ;Fight
-    {
-        ;ToolTip "Enter fight mode"
-
-        if FileExist("neednewrun.txt")
-        {
-            MakeKeyUp()
-            ;ToolTip "Play fight scenario"
-            Random, rand, 1, AvailableScriptsFight.MaxIndex()
-            script = % AvailableScriptsFight[rand]
-            Run Playback.exe %script%
-            FileDelete %A_WorkingDir%\neednewrun.txt
-        }
-
-        ;Check low hp
-        PixelSearch, Px, Py, 179, 822, 380, 830, 0xc8c8c8, 10, Fast
-        er0 := ErrorLevel
-
-        if (er0 == 1)
-        {
-            ;ToolTip "Escape mode"
-            StopCurrentPlayback()
-            CurrentState := 2
-            return
-        }
-
-        PixelSearch, Px, Py, 119, 822, 380, 830, 0x3244fb, 20, Fast ;Have damaged
-        er1 := ErrorLevel
-        if (er1 == 1)
-        {
-            t:=A_TickCount
-            delay:=t-LastTimeDamaged
-
-            if ( delay > 10000)
-            {
-                ;ToolTip "Battle finished"
-                StopCurrentPlayback()
-                CurrentState := 0
-                return
-            }
-        }
-        else
-        {
-            LastTimeDamaged := A_TickCount
-        }
-    }
-    else if(CurrentState == 2) ;Escape
-    {
-        if FileExist("neednewrun.txt")
-        {
-            MakeKeyUp()
-            ;ToolTip "Play escape scenario"
-            Random, rand, 1, AvailableScriptsEscape.MaxIndex()
-            script = % AvailableScriptsEscape[rand]
-            Run Playback.exe %script%
-            FileDelete %A_WorkingDir%\neednewrun.txt
-        }
-
-        ;Check exit
-        PixelSearch, Px, Py, 670, 118, 803, 121, 0x095bb5, 15, Fast ;Yellow
-        er1 := ErrorLevel
-
-        PixelSearch, Px, Py, 670, 118, 803, 121, 0x0506e9, 15, Fast ;Red
-        er2 := ErrorLevel
-
-        if (er1 == 1 and er2 == 1)
-        {
-            ;ToolTip "Enter default mode"
-            StopCurrentPlayback()
-            CurrentState := 0
-            return
-        }
-    }
-}
-
-ProcessCommonActions()
-{
-    ImageSearch, foundX, foundY, 0, 0, 1600, 900, *100 *Trans0xFF0000 %A_WorkingDir%\interact_E.bmp
-    er1 := ErrorLevel
-
-    if (er1 == 0)
-    {
-        ;ToolTip "Found interact feedback"
-        Send { e down}
-        Sleep 100
-        Send { e up}
-        Sleep 100
-    }
-    else
-    {
-        ;ToolTip "Not found feedback"
-    }
-
-    ImageSearch, foundX, foundY, 0, 0, 1600, 900, *100 *Trans0xFF0000 %A_WorkingDir%\interact_F.bmp
-    er2 := ErrorLevel
-
-    if (er2 == 0)
-    {
-        ;ToolTip "Found interact feedback"
-        Send { f down}
-        Sleep 200
-        Send { f up}
-        Sleep 200
-    }
-    else
-    {
-        ;ToolTip "Not found feedback"
-    }
-}
-
-MakeKeyUp()
-{
-    global keys
-
-    ;Make keys up to prevent state stick
-    for i, element in keys
-    {
-        k = % keys[i]
-        Send { %k% up}
-    }
-}
-
-StopCurrentPlayback()
-{
-    Process, Close, Playback.exe ;Close current playback
-    FileAppend A_ScriptName, %A_WorkingDir%\neednewrun.txt
-    MakeKeyUp()
-}

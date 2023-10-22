@@ -1,3 +1,5 @@
 TempRecord.txt
 *.bak
 neednewrun.txt
+NNLog.txt
+logs/

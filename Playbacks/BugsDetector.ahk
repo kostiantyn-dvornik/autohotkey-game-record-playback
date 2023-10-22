@@ -1,4 +1,4 @@
-﻿;Pixel search == 0 => Fond
+﻿;Pixel search == 0 => Found
 SetBatchLines -1
 
 BlackLastTime := A_TickCount

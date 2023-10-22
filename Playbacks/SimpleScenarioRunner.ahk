@@ -1,4 +1,5 @@
 ;Pixel search == 0 => Fond
+#Requires AutoHotkey v1.1.33+
 SetBatchLines -1
 
 AvailableScripts := []
