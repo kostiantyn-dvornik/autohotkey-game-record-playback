@@ -44,6 +44,7 @@ https://learn.microsoft.com/en-us/windows/ai/directml/gpu-tensorflow-plugin
 - Added Tensorflow Keras image classification for stabilize camera horizon
 - Added windows auto layout for easier workflow
 - Separate classic record and neural networks 
+https://www.youtube.com/watch?v=ASy-2zOMj_Y
 
 # Contact
 For any questions or inquiries, please reach out to kostiantyn.dvornik@gmail.com
