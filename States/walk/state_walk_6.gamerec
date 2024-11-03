@@ -1,0 +1,216 @@
+wait 0.8194901943206787
+key_state w True
+wait 0.4189798831939697
+key_state space True
+wait 0.13823246955871582
+key_state space False
+wait 0.16076898574829102
+mouse_move -3 1
+wait 0.01068425178527832
+mouse_move -7 3
+wait 0.007911920547485352
+mouse_move -4 0
+wait 0.008090019226074219
+mouse_move -3 2
+mouse_move -2 -1
+wait 0.004088401794433594
+mouse_move -1 0
+wait 0.007924795150756836
+mouse_move -4 0
+wait 0.007758617401123047
+mouse_move -3 2
+wait 0.008243083953857422
+mouse_move -4 1
+wait 0.009439468383789062
+mouse_move -5 2
+wait 0.008550882339477539
+mouse_move -5 2
+wait 0.0060122013092041016
+mouse_move -4 2
+wait 0.007518768310546875
+mouse_move -6 2
+wait 0.008482933044433594
+mouse_move -6 1
+wait 0.007307767868041992
+mouse_move -5 0
+wait 0.010175704956054688
+mouse_move -4 2
+wait 0.006589174270629883
+mouse_move -3 0
+wait 0.13793420791625977
+mouse_move -2 1
+wait 0.025313377380371094
+mouse_move -1 1
+wait 0.010691165924072266
+mouse_move -1 1
+wait 0.013411283493041992
+mouse_move -1 0
+wait 0.06070733070373535
+mouse_move -1 1
+wait 0.051321983337402344
+mouse_move 0 1
+wait 0.008574962615966797
+mouse_move 1 0
+wait 0.01600170135498047
+mouse_move 5 0
+wait 0.007127523422241211
+mouse_move 5 1
+wait 0.008873939514160156
+mouse_move 4 2
+wait 0.007422208786010742
+mouse_move 5 1
+wait 0.007683753967285156
+mouse_move 7 2
+wait 0.0053746700286865234
+mouse_move 3 0
+wait 0.010512113571166992
+mouse_move 6 0
+wait 0.007172107696533203
+mouse_move 5 0
+wait 0.008512020111083984
+mouse_move 2 0
+wait 0.011740684509277344
+mouse_move 4 0
+wait 0.006579160690307617
+mouse_move 2 0
+wait 0.012040376663208008
+mouse_move 4 0
+wait 0.009175777435302734
+mouse_move 5 0
+wait 0.004508256912231445
+mouse_move 3 0
+wait 0.008290767669677734
+mouse_move 6 0
+wait 0.00739288330078125
+mouse_move 6 0
+wait 0.00860905647277832
+mouse_move 4 0
+wait 0.010077953338623047
+mouse_move 5 -1
+wait 0.0059239864349365234
+mouse_move 3 -2
+wait 0.007248878479003906
+mouse_move 2 0
+wait 0.3127877712249756
+mouse_move 1 -1
+wait 0.009270906448364258
+mouse_move 2 -1
+wait 0.03229570388793945
+mouse_move 1 -1
+wait 0.03688192367553711
+key_state d True
+wait 0.005549430847167969
+mouse_move 2 0
+wait 0.35004091262817383
+key_state d False
+wait 0.15354108810424805
+key_state a True
+wait 0.16978168487548828
+key_state w False
+wait 0.09270787239074707
+key_state a False
+wait 0.13845443725585938
+key_state w True
+wait 0.3720366954803467
+key_state d True
+wait 0.3857393264770508
+key_state a True
+wait 0.09308075904846191
+key_state d False
+wait 0.10857701301574707
+key_state w False
+wait 0.13924264907836914
+key_state w True
+wait 0.030385494232177734
+key_state a False
+wait 0.005917787551879883
+mouse_move 3 0
+wait 0.012740373611450195
+mouse_move 8 0
+wait 0.00795602798461914
+mouse_move 3 1
+wait 0.009997844696044922
+mouse_move 2 3
+wait 0.006003856658935547
+mouse_move 2 0
+wait 0.008046150207519531
+mouse_move 2 2
+wait 0.007307529449462891
+mouse_move 2 1
+wait 0.008642911911010742
+mouse_move 1 0
+wait 0.010085105895996094
+mouse_move 1 0
+wait 0.013918161392211914
+mouse_move 3 0
+wait 0.008051633834838867
+mouse_move 1 1
+wait 0.026035785675048828
+key_state d True
+wait 0.031079530715942383
+mouse_move 1 1
+wait 0.3571810722351074
+key_state a True
+wait 0.03132128715515137
+key_state d False
+wait 0.1704256534576416
+key_state space True
+wait 0.030776262283325195
+key_state a False
+wait 0.09409904479980469
+key_state space False
+wait 0.23237013816833496
+key_state d True
+wait 0.12354207038879395
+key_state d False
+wait 0.04649186134338379
+key_state space True
+wait 0.07801222801208496
+key_state space False
+wait 0.10870766639709473
+key_state space True
+wait 0.06253170967102051
+key_state space False
+wait 0.264204740524292
+key_state space True
+wait 0.10837435722351074
+key_state a True
+key_state space False
+wait 0.23363900184631348
+key_state d True
+key_state w False
+wait 0.046437978744506836
+key_state a False
+wait 0.047049760818481445
+key_state d False
+key_state a True
+wait 0.14098215103149414
+key_state d True
+wait 0.0308530330657959
+key_state a False
+wait 0.015651941299438477
+key_state w True
+wait 0.23359990119934082
+key_state d False
+wait 0.18502521514892578
+key_state space True
+wait 0.12456226348876953
+key_state space False
+wait 0.30812644958496094
+key_state d True
+wait 0.23286914825439453
+key_state d False
+wait 0.20445823669433594
+mouse_move 0 1
+wait 0.01999044418334961
+mouse_move -2 1
+wait 0.007393360137939453
+mouse_move -2 0
+wait 0.019684314727783203
+mouse_move -1 1
+wait 0.02547430992126465
+key_state space True
+wait 0.13987326622009277
+key_state space False
+wait 0.18607378005981445
+key_state w False

@@ -1,0 +1,587 @@
+wait 0.003955364227294922
+mouse_move -1 0
+wait 0.016047000885009766
+mouse_move -8 0
+wait 0.00787806510925293
+mouse_move -6 0
+wait 0.00813746452331543
+mouse_move -7 0
+wait 0.007929086685180664
+mouse_move -8 0
+wait 0.008059263229370117
+mouse_move -8 0
+wait 0.008002042770385742
+mouse_move -8 0
+wait 0.007999658584594727
+mouse_move -7 0
+wait 0.00739288330078125
+mouse_move -8 0
+wait 0.00860905647277832
+mouse_move -8 0
+wait 0.007897138595581055
+mouse_move -8 0
+wait 0.008104562759399414
+mouse_move -8 0
+wait 0.0075075626373291016
+mouse_move -7 0
+wait 0.008425712585449219
+mouse_move -7 0
+wait 0.007456779479980469
+mouse_move -7 0
+wait 0.008613824844360352
+mouse_move -4 0
+wait 0.01160883903503418
+mouse_move -2 1
+wait 0.006392717361450195
+mouse_button_state left True
+wait 0.08750677108764648
+mouse_button_state left False
+wait 0.09651494026184082
+mouse_button_state left True
+wait 0.007588386535644531
+mouse_move -1 1
+wait 0.01193547248840332
+mouse_move 0 3
+wait 0.012479543685913086
+mouse_move 0 2
+wait 0.050005435943603516
+mouse_button_state left False
+wait 0.09397315979003906
+mouse_button_state left True
+wait 0.055637359619140625
+mouse_button_state left False
+wait 0.09410738945007324
+mouse_button_state left True
+wait 0.07032966613769531
+mouse_button_state left False
+wait 0.08599853515625
+mouse_button_state left True
+wait 0.07408714294433594
+mouse_button_state left False
+wait 0.08757495880126953
+mouse_button_state left True
+wait 0.06609416007995605
+mouse_button_state left False
+wait 0.07029056549072266
+mouse_button_state left True
+wait 0.0814054012298584
+mouse_button_state left False
+wait 0.08035612106323242
+mouse_button_state left True
+wait 0.0757756233215332
+mouse_button_state left False
+wait 0.09011316299438477
+mouse_button_state left True
+wait 0.07594990730285645
+mouse_button_state left False
+wait 0.06205558776855469
+mouse_button_state left True
+wait 0.08061361312866211
+mouse_button_state left False
+wait 0.038770198822021484
+key_state z True
+wait 0.36084532737731934
+mouse_move 1 0
+wait 0.008212089538574219
+mouse_move 1 0
+wait 0.0073261260986328125
+mouse_move 1 0
+wait 0.00867605209350586
+mouse_move 1 0
+wait 0.009317159652709961
+mouse_move 2 0
+wait 0.02267932891845703
+mouse_move 3 0
+wait 0.050012826919555664
+mouse_move 1 0
+wait 0.034003496170043945
+mouse_move 2 0
+wait 0.020002365112304688
+mouse_move 1 0
+wait 0.05214810371398926
+mouse_move 2 0
+wait 0.009870767593383789
+mouse_move 1 1
+wait 0.009150028228759766
+mouse_move 2 1
+wait 0.014519929885864258
+mouse_move 1 0
+wait 0.01253652572631836
+mouse_move 2 0
+wait 0.8688704967498779
+key_state z False
+wait 0.14008665084838867
+key_state z True
+wait 0.6855294704437256
+key_state z False
+wait 0.04934501647949219
+mouse_move 1 -1
+wait 0.026216506958007812
+mouse_move 1 -4
+wait 0.1747298240661621
+key_state z True
+wait 0.045404911041259766
+mouse_move 1 -1
+wait 0.02194499969482422
+mouse_move 3 0
+wait 0.0009996891021728516
+mouse_move 1 -1
+wait 0.006293535232543945
+mouse_move 1 -1
+wait 0.014504194259643555
+mouse_move 7 0
+wait 0.006001949310302734
+mouse_move 5 0
+wait 0.007508993148803711
+mouse_move 7 1
+wait 0.011012554168701172
+mouse_move 10 3
+wait 0.005522251129150391
+mouse_move 7 2
+wait 0.009002685546875
+mouse_move 11 3
+wait 0.006257534027099609
+mouse_move 7 2
+wait 0.01051020622253418
+mouse_move 10 2
+wait 0.008020877838134766
+mouse_move 8 2
+wait 0.005506038665771484
+mouse_move 6 1
+wait 0.010014772415161133
+mouse_move 8 3
+wait 0.008023738861083984
+mouse_move 4 1
+wait 0.005944252014160156
+mouse_move 4 1
+wait 0.006001472473144531
+key_state z False
+wait 0.0025060176849365234
+mouse_move 5 0
+wait 0.008015155792236328
+mouse_move 5 2
+wait 0.009917497634887695
+mouse_move 7 1
+wait 0.0060045719146728516
+mouse_move 5 0
+wait 0.007521152496337891
+mouse_move 8 0
+wait 0.008114099502563477
+mouse_move 9 0
+wait 0.008505582809448242
+mouse_move 10 0
+wait 0.008002758026123047
+mouse_move 9 0
+wait 0.00757288932800293
+mouse_move 11 0
+wait 0.007787942886352539
+mouse_move 8 0
+wait 0.007315158843994141
+mouse_move 10 0
+wait 0.008519887924194336
+mouse_move 11 0
+wait 0.008006095886230469
+mouse_move 9 -2
+wait 0.0071642398834228516
+mouse_move 9 -2
+wait 0.008838176727294922
+mouse_move 9 -2
+wait 0.008000373840332031
+mouse_move 7 0
+wait 0.010001420974731445
+mouse_move 8 0
+wait 0.006000518798828125
+mouse_move 4 0
+wait 0.007391691207885742
+mouse_move 2 0
+wait 0.006610393524169922
+mouse_move 1 1
+mouse_move 1 0
+mouse_button_state left True
+wait 0.006068229675292969
+mouse_move 0 1
+wait 0.021773338317871094
+mouse_move 2 1
+wait 0.04217791557312012
+mouse_move 0 1
+wait 0.001781463623046875
+mouse_button_state left False
+wait 0.0677335262298584
+mouse_move 1 2
+wait 0.010516643524169922
+mouse_move 0 1
+wait 0.010021448135375977
+mouse_move 0 2
+wait 0.009946823120117188
+mouse_move 0 4
+mouse_button_state left True
+wait 0.003882169723510742
+mouse_move 0 2
+wait 0.06496119499206543
+mouse_move 2 3
+wait 0.005002021789550781
+mouse_button_state left False
+wait 0.08318901062011719
+mouse_move 0 1
+wait 0.0037157535552978516
+key_state z True
+wait 0.00526881217956543
+mouse_move 0 1
+wait 0.011995553970336914
+mouse_move -2 2
+wait 0.007386684417724609
+mouse_move -1 0
+wait 0.014621734619140625
+mouse_move -3 3
+wait 0.00606083869934082
+mouse_move -3 0
+wait 0.005951881408691406
+mouse_move -3 1
+wait 0.009822607040405273
+mouse_move -3 0
+wait 0.007507801055908203
+mouse_move -3 1
+wait 0.008543729782104492
+mouse_move -2 1
+wait 0.01180720329284668
+mouse_move -1 0
+wait 0.010521411895751953
+mouse_move -2 0
+wait 0.00901031494140625
+mouse_move -1 1
+wait 0.0010004043579101562
+key_state z False
+wait 0.015522480010986328
+mouse_move -1 0
+wait 0.011495351791381836
+mouse_move -1 0
+wait 0.012007713317871094
+mouse_move -2 3
+wait 0.014063596725463867
+mouse_move -3 0
+wait 0.01802849769592285
+mouse_move 0 1
+wait 0.010537147521972656
+mouse_move -1 1
+wait 0.006033897399902344
+mouse_button_state left True
+wait 0.006458759307861328
+key_state z True
+wait 0.0715792179107666
+mouse_button_state left False
+wait 0.05373740196228027
+key_state z False
+wait 0.04795956611633301
+mouse_button_state left True
+wait 0.004389524459838867
+mouse_move -1 1
+wait 0.01011037826538086
+key_state z True
+wait 0.013891935348510742
+mouse_move -1 1
+wait 0.057953834533691406
+mouse_button_state left False
+wait 0.04599761962890625
+mouse_move -1 1
+wait 0.0160372257232666
+mouse_move -6 -4
+wait 0.005530118942260742
+key_state z False
+wait 0.002496004104614258
+mouse_move -5 -3
+wait 0.007506370544433594
+mouse_move -6 -4
+wait 0.008495569229125977
+mouse_move -8 -8
+wait 0.007933378219604492
+mouse_move -8 -5
+wait 0.008004903793334961
+mouse_move -9 -8
+wait 0.008064508438110352
+mouse_move -9 -7
+wait 0.008002042770385742
+mouse_move -7 -7
+wait 0.00800013542175293
+mouse_move -7 -7
+wait 0.006943225860595703
+mouse_move -4 -6
+wait 0.009058475494384766
+mouse_move -4 -5
+wait 0.007930278778076172
+mouse_move -4 -6
+wait 0.007529258728027344
+mouse_move -3 -4
+wait 0.004001617431640625
+key_state z True
+wait 0.005995273590087891
+mouse_move -1 -2
+wait 0.00099945068359375
+mouse_button_state left True
+wait 0.09733009338378906
+mouse_button_state left False
+wait 0.03606843948364258
+key_state z False
+wait 0.006181001663208008
+mouse_move 0 -1
+wait 0.013845205307006836
+mouse_move -1 -2
+wait 0.005844831466674805
+mouse_move -3 -1
+wait 0.003999948501586914
+mouse_move 0 -1
+wait 0.012164592742919922
+mouse_move -1 -4
+wait 0.006153106689453125
+mouse_move -1 -1
+wait 0.005507469177246094
+mouse_move -1 0
+wait 0.016669034957885742
+mouse_move -1 -1
+mouse_button_state left True
+wait 0.008505582809448242
+mouse_move -1 0
+wait 0.014528274536132812
+key_state z True
+wait 0.0040018558502197266
+mouse_move -2 -2
+wait 0.004510164260864258
+mouse_move -1 -1
+wait 0.01626873016357422
+mouse_move -4 -2
+wait 0.010193347930908203
+mouse_move -2 -1
+wait 0.0071620941162109375
+mouse_move -4 0
+wait 0.006514072418212891
+mouse_move -2 -1
+mouse_move -1 0
+mouse_button_state left False
+wait 0.002154111862182617
+mouse_move -2 0
+wait 0.009471893310546875
+mouse_move -5 -3
+wait 0.008585214614868164
+mouse_move -5 -3
+wait 0.007515430450439453
+mouse_move -6 -3
+wait 0.007551431655883789
+mouse_move -7 -4
+wait 0.006022930145263672
+mouse_move -6 -3
+wait 0.003000020980834961
+key_state z False
+wait 0.005504608154296875
+mouse_move -7 -6
+wait 0.008384227752685547
+mouse_move -7 -2
+wait 0.009476900100708008
+mouse_move -10 -3
+wait 0.006011486053466797
+mouse_move -7 -3
+wait 0.008517742156982422
+mouse_move -8 -3
+wait 0.007508516311645508
+mouse_move -6 -3
+wait 0.008481025695800781
+mouse_move -4 -2
+wait 0.007504940032958984
+mouse_move -4 -1
+wait 0.018538236618041992
+mouse_move -2 0
+mouse_button_state left True
+wait 0.031034231185913086
+key_state z True
+wait 0.04687070846557617
+mouse_button_state left False
+wait 0.009505271911621094
+mouse_move -1 -1
+wait 0.00800943374633789
+mouse_move 0 -1
+wait 0.012027263641357422
+mouse_move 0 -7
+wait 0.008508443832397461
+mouse_move 2 -5
+wait 0.008077383041381836
+mouse_move 2 -6
+wait 0.0009999275207519531
+key_state z False
+wait 0.006508350372314453
+mouse_move 1 -6
+wait 0.012520551681518555
+mouse_move 1 -4
+wait 0.003107309341430664
+mouse_move 1 -1
+wait 0.024863243103027344
+mouse_move 0 -1
+mouse_button_state left True
+wait 0.059735774993896484
+mouse_button_state left False
+wait 0.003000974655151367
+key_state z True
+wait 0.0780341625213623
+key_state z False
+wait 0.012991189956665039
+mouse_button_state left True
+wait 0.057843685150146484
+mouse_move 0 -1
+wait 0.012467384338378906
+mouse_button_state left False
+wait 0.010527372360229492
+key_state z True
+wait 0.0013306140899658203
+mouse_move -1 0
+wait 0.010000944137573242
+mouse_move -2 0
+wait 0.007830619812011719
+mouse_move -4 -1
+wait 0.008165359497070312
+mouse_move -3 -1
+wait 0.009679555892944336
+mouse_move -3 -1
+wait 0.005500316619873047
+mouse_move -3 -2
+wait 0.008829116821289062
+mouse_move -2 0
+wait 0.010169744491577148
+mouse_move -3 -1
+wait 0.005831718444824219
+mouse_move -1 0
+wait 0.010040044784545898
+mouse_button_state left True
+wait 0.011042356491088867
+mouse_move -1 0
+wait 0.005067586898803711
+key_state z False
+wait 0.055674076080322266
+mouse_button_state left False
+wait 0.053980112075805664
+key_state z True
+wait 0.030214786529541016
+mouse_button_state left True
+wait 0.06301021575927734
+key_state z False
+wait 0.0010001659393310547
+mouse_button_state left False
+wait 0.07598209381103516
+mouse_button_state left True
+wait 0.03265523910522461
+key_state z True
+wait 0.04537773132324219
+mouse_button_state left False
+wait 0.043994903564453125
+mouse_move -1 0
+wait 0.0039017200469970703
+key_state z False
+wait 0.00410914421081543
+mouse_move -1 0
+wait 0.008001089096069336
+mouse_move -2 0
+wait 0.009438753128051758
+mouse_move -3 0
+wait 0.010563373565673828
+mouse_move -3 2
+wait 0.006000518798828125
+mouse_move -3 1
+wait 0.008119821548461914
+mouse_move -3 0
+wait 0.007882118225097656
+mouse_move -5 2
+wait 0.0038030147552490234
+mouse_move -1 0
+mouse_move -1 0
+mouse_button_state left True
+wait 0.0015041828155517578
+mouse_move -2 0
+wait 0.01818060874938965
+mouse_move -11 3
+wait 0.0065157413482666016
+mouse_move -3 1
+wait 0.008054494857788086
+mouse_move -4 0
+wait 0.0010004043579101562
+key_state z True
+wait 0.011016607284545898
+mouse_move -3 0
+wait 0.008023262023925781
+mouse_button_state left False
+wait 0.07455921173095703
+key_state z False
+wait 0.025360584259033203
+mouse_button_state left True
+wait 0.05193376541137695
+mouse_move 2 0
+wait 0.005816936492919922
+mouse_move 3 0
+mouse_move 1 0
+mouse_button_state left False
+wait 0.0019173622131347656
+mouse_move 2 0
+wait 0.008018255233764648
+key_state z True
+mouse_move 5 0
+wait 0.008322477340698242
+mouse_move 7 0
+wait 0.008001327514648438
+mouse_move 7 -1
+wait 0.008000373840332031
+mouse_move 6 -1
+wait 0.01001286506652832
+mouse_move 6 -2
+wait 0.007695198059082031
+mouse_move 5 -1
+wait 0.005383968353271484
+mouse_move 3 -1
+wait 0.012481212615966797
+mouse_move 3 0
+wait 0.017504215240478516
+mouse_move 2 0
+wait 0.015290975570678711
+key_state z False
+wait 0.001001596450805664
+mouse_move 3 1
+mouse_move 1 1
+mouse_button_state left True
+wait 0.0020012855529785156
+mouse_move 2 1
+wait 0.013644933700561523
+mouse_move 4 5
+wait 0.010724067687988281
+mouse_move 3 3
+wait 0.009903907775878906
+mouse_move 1 1
+wait 0.0443730354309082
+mouse_button_state left False
+wait 0.05672645568847656
+key_state z True
+wait 0.025282859802246094
+mouse_button_state left True
+wait 0.06678152084350586
+key_state z False
+wait 0.016028881072998047
+mouse_button_state left False
+wait 0.09280633926391602
+key_state z True
+wait 0.07793760299682617
+key_state z False
+wait 0.15178346633911133
+mouse_move 1 1
+wait 0.05837607383728027
+mouse_move 1 0
+wait 0.007992744445800781
+mouse_move 2 0
+wait 0.010360479354858398
+mouse_move 1 0
+wait 0.0053255558013916016
+mouse_move 2 0
+wait 0.024045705795288086
+mouse_move 1 0
+wait 0.01420140266418457
+mouse_move 2 0
+wait 0.0104217529296875
+mouse_move 1 0
+wait 0.007652759552001953
+mouse_move 2 0
+wait 0.27634239196777344
+mouse_move 1 0
+wait 0.023694753646850586
+mouse_move 1 -1

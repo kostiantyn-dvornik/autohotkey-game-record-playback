@@ -1,0 +1,54 @@
+wait 0.559157133102417
+key_state s True
+wait 0.1282196044921875
+mouse_move -1 0
+wait 0.012450218200683594
+mouse_move -4 0
+wait 0.013990402221679688
+mouse_move -3 1
+wait 0.0076715946197509766
+mouse_move -1 0
+wait 0.014359474182128906
+mouse_move -4 1
+wait 0.011984109878540039
+mouse_move -1 1
+wait 0.014001846313476562
+mouse_move -3 2
+wait 0.006017923355102539
+mouse_move 0 1
+wait 0.011236429214477539
+mouse_move -4 2
+wait 0.012260675430297852
+mouse_move -2 2
+wait 0.12250232696533203
+mouse_move -2 1
+wait 0.031243085861206055
+key_state a True
+wait 0.4473304748535156
+key_state d True
+wait 0.030734777450561523
+key_state a False
+wait 0.5531036853790283
+key_state d False
+wait 0.01537179946899414
+key_state a True
+wait 0.0615229606628418
+key_state s False
+wait 0.03022933006286621
+key_state a False
+wait 0.2321019172668457
+key_state s True
+wait 0.16779351234436035
+key_state a True
+wait 0.449878454208374
+key_state d True
+wait 0.031585693359375
+key_state a False
+wait 0.5094170570373535
+key_state d False
+wait 0.015246868133544922
+key_state a True
+wait 0.4947645664215088
+key_state s False
+wait 0.014806509017944336
+key_state a False
