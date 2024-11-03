@@ -3,3 +3,4 @@ TempRecord.txt
 neednewrun.txt
 NNLog.txt
 logs/
+**/__pycache__/

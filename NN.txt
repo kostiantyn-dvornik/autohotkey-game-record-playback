@@ -1,0 +1,13 @@
+player.setav health 999999
+player.setav stamina 999999
+player.setav magicka 999999
+player.forceav carryweight 999999
+set gamehour to 12
+fw 10E1EE
+sw 10E1EE
+player.setcrimegold 0
+setav aggression 0
+set MQ106TurnOffRandomDragons to 1
+
+
+
