@@ -1,0 +1,36 @@
+wait 0.2619781494140625
+key_state ` True
+wait 0.07812047004699707
+key_state ` False
+wait 1.0058505535125732
+key_state b True
+wait 0.0629127025604248
+key_state b False
+wait 0.06274223327636719
+key_state a True
+wait 0.1103663444519043
+key_state a False
+wait 0.23598599433898926
+key_state t True
+wait 0.0785226821899414
+key_state t False
+wait 0.31359195709228516
+key_state space True
+wait 0.06235837936401367
+key_state space False
+wait 0.8508398532867432
+key_state n True
+wait 0.04784369468688965
+key_state n False
+wait 0.1107637882232666
+key_state n True
+wait 0.07996582984924316
+key_state n False
+wait 0.6701047420501709
+key_state enter True
+wait 0.11030054092407227
+key_state enter False
+wait 2.2755610942840576
+key_state ` True
+wait 0.10906767845153809
+key_state ` False

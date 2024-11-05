@@ -5,7 +5,7 @@ import win32con
 import os
 import random
 
-keys  = ["d", "z", "a", "w", "s", "space", "alt", "e", "c", "f", "q", "esc", "enter"]
+keys  = ["d", "z", "a", "w", "s", "space", "alt", "e", "c", "f", "q", "esc", "enter", "`", "b", "t", "n"]
 
 def keys_up():    
     for key in keys:

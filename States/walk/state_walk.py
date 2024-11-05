@@ -7,6 +7,7 @@ from States.find_enemy import state_find_enemy
 from States.horizont import state_horizont
 from States.stuck import state_stuck
 from States.road import state_road
+from States.reset import state_reset
 
 params = {
     
@@ -72,6 +73,11 @@ def process_transitions():
             playutils.keys_up()
             return
         
+        if state_reset.is_trainsitin():            
+            globals.CURRENT_STATE = "reset"
+            playutils.keys_up()
+            return
+        
         prev_time = time.time()
 
 def update():    
@@ -80,6 +86,6 @@ def update():
 
     process_transitions()
 
-    state_horizont.update()
+    state_horizont.update()    
     
     

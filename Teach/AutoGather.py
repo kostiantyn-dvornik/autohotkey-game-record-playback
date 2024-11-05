@@ -14,7 +14,7 @@ from PIL import ImageGrab
 execution_period = 1
 
 #[use]
-state = "follow_road"
+state = "road"
 
 script_directory = os.path.dirname(os.path.abspath(sys.argv[0]))
 state_dir = os.path.join(script_directory, "..", "States", state)
@@ -24,7 +24,7 @@ global_dir = os.path.join(script_directory, "..")
 sys.path.append(global_dir)
 
 #[gen]
-import state_follow_road as st
+import state_road as st
 
 params = st.params
 

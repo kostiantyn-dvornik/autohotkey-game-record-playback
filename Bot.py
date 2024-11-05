@@ -13,6 +13,7 @@ from States.stuck_walk import state_stuck_walk
 from States.find_enemy import state_find_enemy
 from States.road import state_road
 from States.follow_road import state_follow_road
+from States.reset import state_reset
 
 #[gen]
 states = {
@@ -24,6 +25,7 @@ states = {
     "find_enemy" : state_find_enemy,
     "road" : state_road,
     "follow_road" : state_follow_road,
+    "reset" : state_reset,
 }
 
 paused = False

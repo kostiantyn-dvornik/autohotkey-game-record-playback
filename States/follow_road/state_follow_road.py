@@ -56,7 +56,7 @@ def reset_timers():
     prev_time_turn = time.time()  
 
     global prev_time_nocheck
-    prev_time_nocheck = time.time()    
+    prev_time_nocheck = time.time()
 
 def on_transit_in():    
     global current_action_index, action_lines, playback_current
@@ -64,7 +64,7 @@ def on_transit_in():
     action_lines, playback_current = playutils.load_playback(playback_recordings, playback_current)
 
     global prev_time_road
-    prev_time_road = time.time()
+    prev_time_road = time.time() 
 
     reset_timers()
 
@@ -114,7 +114,7 @@ def is_trainsitin():
     global nnresult
     nnresult = ind
     
-    print("Follow road " + str(ind))
+    print("Follow road " + str(ind) + " " + str(time.time()))
 
     return ind == 1 or ind == 2
 
@@ -122,7 +122,7 @@ def check_road_state():
     global stop_check_road_state_thread
     while not stop_check_road_state_thread:
         is_trainsitin()
-        time.sleep(0.1)
+        time.sleep(0.001)
 
 is_trainsitin_thread = threading.Thread(target=check_road_state)
 
@@ -161,7 +161,7 @@ def process_walk_state():
     global prev_time_road
 
     elapsed_time_road = time.time() - prev_time_road
-    if elapsed_time_road > 2:
+    if elapsed_time_road > 3:
         prev_time_road = time.time()
 
         if not state_road.is_trainsitin():
@@ -177,7 +177,7 @@ def update():
         process_playback()
         
         elapsed_time_nocheck = time.time() - prev_time_nocheck
-        if elapsed_time_nocheck > 2:
+        if elapsed_time_nocheck > 1:
 
             elapsed_time = time.time() - prev_time_state
             if elapsed_time > 0.05:
@@ -191,9 +191,9 @@ def update():
                     print("Enter turn right")
                     set_state("turn_right")
                     return
-
-        process_walk_state()
-
+                
+            process_walk_state()
+                
         state_horizont.update()
 
     elif state == "turn_left":
@@ -202,7 +202,7 @@ def update():
         time.sleep(0.01)
 
         elapsed_time_state = time.time() - prev_time_state
-        if elapsed_time_state > 0.1:
+        if elapsed_time_state > 0.05:
             prev_time_state = time.time()            
             
             res = nnresult                                    
@@ -222,7 +222,7 @@ def update():
         time.sleep(0.01)
 
         elapsed_time_state = time.time() - prev_time_state
-        if elapsed_time_state > 0.1:
+        if elapsed_time_state > 0.05:
             prev_time_state = time.time()            
             
             res = nnresult                                    
