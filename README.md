@@ -1,4 +1,4 @@
-# autohotkey-game-record-playback
+# neural-network-game-bot
 Tool for record and playback game input based on neural networks image classification. Suitable for autotesting games
 
 # Overview
