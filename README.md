@@ -39,6 +39,7 @@ https://learn.microsoft.com/en-us/windows/ai/directml/gpu-tensorflow-plugin
 https://www.youtube.com/watch?v=ASy-2zOMj_Y
 
 2024.11
+https://www.youtube.com/watch?v=ofx753BbWDw
 - Moved fully to Python
 - Moved to vanilla Skyrim game (no mods)
 - Added systemic approach for adding states with neural network detection and recorded playback
