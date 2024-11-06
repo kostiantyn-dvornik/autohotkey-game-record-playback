@@ -33,10 +33,10 @@ https://learn.microsoft.com/en-us/windows/ai/directml/gpu-tensorflow-plugin
 - Initial
 
 2023.10
+https://www.youtube.com/watch?v=ASy-2zOMj_Y
 - Added Tensorflow Keras image classification for stabilize camera horizon
 - Added windows auto layout for easier workflow
 - Separate classic record and neural networks 
-https://www.youtube.com/watch?v=ASy-2zOMj_Y
 
 2024.11
 https://www.youtube.com/watch?v=ofx753BbWDw
